@@ -40,7 +40,7 @@
     </nav>
                 
     <header class="container-fluid text-bg-dark text-center">
-        <h1 class="my-5 p-4 fs-1 fw-bold">C O F F E E <br> S T O R A G E</h1>
+        <h1 class="my-5 p-4 fs-1 fw-bold display-1">C O F F E E <br> S T O R A G E</h1>
     </header>
 
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
@@ -53,25 +53,25 @@
 
             <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
-                <img src="./Fotos/slide1.jpg" class="img-fluid" alt="Slide 1">
+                <img src="./Fotos/slide1.jpg" class="img-fluid" style="max-width: 100%;" alt="Slide 1">
                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                   <a class="card-title fs-2 text-dark text-decoration-none" href="#seccionHistoria">HISTORIA</a>
                 </div>
             </div>
               <div class="carousel-item" data-bs-interval="2000">
-                <img src="./Fotos/slice44.jpg" class="img-fluid" alt="Slide 2">
+                <img src="./Fotos/slice44.jpg" class="img-fluid" style="max-width: 100%;" alt="Slide 2">
                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                   <a class="card-title fs-2 text-dark text-decoration-none" href="#seccionNosotros">QUIÉNES SOMOS</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./Fotos/slice3.jpg" class="img-fluid" alt="Slide 3">
+                <img src="./Fotos/slice3.jpg" class="img-fluid" style="max-width: 100%;" alt="Slide 3">
                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                   <a class="card-title fs-2 text-dark text-decoration-none" href="#seccionProductos">NUESTROS PRODUCTOS</a>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="./Fotos/slice4.jpg" class="img-fluid" alt="Slide ">
+                <img src="./Fotos/slice4.jpg" class="img-fluid" style="max-width: 100%;" alt="Slide ">
                 <div class="card-img-overlay d-flex justify-content-center align-items-center">
                   <a class="card-title fs-2 text-dark text-decoration-none" href="#seccionContacto">CONTACTO</a>
                 </div>
@@ -87,25 +87,23 @@
             </button>
           </div>
 
+<!-- De esta sección, no pude resolver hacer RESPONSIVES las tarjetas que tienen el párrafo del lado derecho. Creo que el error está en que no cerré bien los div, pero no pude visualizar dónde me equivoqué.-->
+
 <main class="container">
   <h3 id="seccionHistoria" class="card-title fs-2 d-flex justify-content-center my-5 p-4">HISTORIA</h3>
-
   <div class="card border-white mb-12" >
     <div class="row g-0">
       <div class="col-md-6 d-flex align-items-center">
-
         <img src="./Fotos/producto.jpg" class="img-fluid mx-2 my-2 p-4" style="max-width: 540px; max-height: 540px;" alt="árbol de café">
       </div>
       <div class="col-md-6 d-flex align-items-center">
-        <div class="card-body mx-2 my-2 p-4">
-          
+        <div class="card-body mx-2 my-2 p-4">  
           <h5 class="card-title">La leyenda del pastor</h5>
           <p class="card-text">Según una leyenda, fue un joven pastor yemení llamado Kaldi quien descubrió la planta del café. Kaldi observó un comportamiento extraño en su rebaño, que brincada y saltaba enérgicamente, tras ingerir los frutos rojos de un arbusto hasta entonces desconocido. Sorprendido por este hecho el pastor arrancó varios frutos y se los mostró a un superior religioso de un convento cercano. El religioso probó a hervir las bayas y beber la infusión resultante, pero era demasiado amarga y la desechó. Al tirar aquellos frutos al fuego observó cómo al tostarse desprendían un agradable aroma. De nuevo probó a preparar una infusión con las bayas ya tostadas, descubriendo entonces lo que hoy conocemos como café.</p>
         </div>
       </div>
     </div>
   </div>
-
   <div class="card border-white mb-12">
     <div class="row g-0">
       <div class="col-md-6 d-flex align-items-center">
@@ -124,9 +122,9 @@
     <div class="row g-0">
       <div class="col-md-6 d-flex align-items-center">
         <img src="./Fotos/producto5.jpg" class="img-fluid mx-2 my-2 p-4" style="max-width: 540px; max-height: 540px;" alt="trabajando con el grano">
-      </div>
-      <div class="col-md-6 d-flex align-items-center">
-        <div class="card-body mx-2 my-2 p-4">
+        </div>
+          <div class="col-md-6 d-flex align-items-center">
+          <div class="card-body mx-2 my-2 p-4">
           <h5 class="card-title">De fruto a infusión</h5>
           <p class="card-text">En un primer momento el café se consumía masticando los granos crudos o en una masa obtenida tras machacar los frutos y mezclarlos con grasa. Más tarde el café se convirtió en una bebida obtenida de la maceración de los granos en agua fría. A partir del siglo XIII se procedió a secar los granos al sol y tostarlos al fuego antes de preparar la infusión, tal y como se sigue realizando en la actualidad.</p>
         </div>
@@ -150,37 +148,38 @@
 </main>
 
   <div class="container my-5 p-3">
-  <div class="card border-white mb-12" style="max-width: 100%;">
-  <div class="row g-0 d-flex align-items-center">
-  <div class="card border-dark col-sm-6 mx-2 my-2 p-2" style="max-width: 500px;">
-    <div class="card-body">
-      <h4 class="card-title">Tipos y variedades</h4>
-      <p class="card-text">Cuando se habla de variedades y tipos de café no estamos hablando de lo mismo. La variedad se refiere al origen y especie del grano que se cosecha y los tipos son las bebidas que se han inventado a lo largo de los años con esos distintos granos. Hoy te explicaremos cuáles son las variedades y tipos de cafés más populares en el mundo.</p>
+    <div class="card border-white mb-12" style="max-width: 100%;">
+      <div class="row g-0 d-flex justify-content-around">
+
+        <div class="card border-dark col-sm-6 mx-2 my-2 p-2" style="max-width: 500px;">
+          <div class="card-body">
+          <h4 class="card-title">Tipos y variedades</h4>
+          <p class="card-text">Cuando se habla de variedades y tipos de café no estamos hablando de lo mismo. La variedad se refiere al origen y especie del grano que se cosecha y los tipos son las bebidas que se han inventado a lo largo de los años con esos distintos granos. Hoy te explicaremos cuáles son las variedades y tipos de cafés más populares en el mundo.</p>
+          </div>
+        </div>
+      
+        <div class="card border-dark col-sm-6 mx-2 my-2 p-2" style="max-width: 500px;">
+          <div class="card-body">
+          <h4 class="card-title">Variedades y origen</h4>
+          <p class="card-text">En realidad, los tipos de grano de café que se conocen hasta el momento se pueden agrupar tan solo en 4 categorías: el arábigo, el robusta, café libérica y café excelsa. Sin embargo, los más conocidos y comercializados a nivel mundial son los dos primeros.</p>
+        </div>
+      </div>
+      
     </div>
   </div>
-
-  <div class="card border-dark col-sm-6 mx-2 my-2 p-2" style="max-width: 500px;">
-    <div class="card-body">
-      <h4 class="card-title">Variedades y origen</h4>
-      <p class="card-text">En realidad, los tipos de grano de café que se conocen hasta el momento se pueden agrupar tan solo en 4 categorías: el arábigo, el robusta, café libérica y café excelsa. Sin embargo, los más conocidos y comercializados a nivel mundial son los dos primeros.</p>
-    </div>
-  </div>
 </div>
-</div>
-</div>
-
 
 <div class="container">
   <h3 id="seccionNosotros" class="card-title fs-2 d-flex justify-content-center my-5 p-4">NOSOTROS</h3>
 <div class="card text-white bg-white">
   <img src="./Fotos/NOSOTROS4.jpg" class="card-img" alt="foto cafetería">
   <div class="card-img-overlay d-flex justify-content-center align-items-end">
-    <p class="card-text mx-4 my-4 p-4 fs-4">Desde hace más de 5 años trabajamos con el compromiso de elaborar y comercializar productos de la mejor calidad teniendo como objetivo principal la satisfacción de nuestros clientes.
+    <p class="card-text row g-0 mx-4 my-4 p-4">Desde hace más de 5 años trabajamos con el compromiso de elaborar y comercializar productos de la mejor calidad teniendo como objetivo principal la satisfacción de nuestros clientes.
       Para poder lograrlo, tenemos en cuenta nuestros 3 pilares fundamentales: <br>
       <br>
       ► Realizamos constantes mejoras tecnológicas para contribuir al cuidado del medio ambiente, logrando una Producción Segura. <br>
       <br>
-      ► interesamos por el desarrollo profesional y el bienestar de nuestros colaboradores, fomentando la inclusión y diversidad. <br>
+      ► Nos interesamos por el desarrollo profesional y el bienestar de nuestros colaboradores, fomentando la inclusión y diversidad. <br>
       <br>
       ► Nos conectamos con nuestra comunidad y participamos de diversas acciones solidarias. </p>
   </div>
@@ -188,13 +187,12 @@
 </div>
 
     <h2 id="seccionProductos" class="card-title fs-2 d-flex justify-content-center my-5 p-4">LO QUE HACEMOS</h2>
-
-    <div class="card-group container">
+    <div class="card-group row g-0 container-fluid">
       <div class="card col-3 border-white">
         <img src="./Fotos/cafeparallevar.jpg" class="card-img-top mx-2 my-2 p-2" alt="Café para llevar">
         <div class="card-body">
           <h5 class="card-title">Café de especialidad</h5>
-          <p class="card-text">Podes pedir para llevar, cualquiera de nuestras especialidades de café.</p>
+          <p class="card-text">Podes pedir para llevar cualquiera de nuestras especialidades de café.</p>
         </div>
       </div>
       <div class="card col-3 border-white">
@@ -220,7 +218,7 @@
       </div>
     </div>
 
-    <div class="card-group container">
+    <div class="card-group row g-0 container-fluid">
     <div class="card col-3 border-white">
       <img src="./Fotos/croissant.jpg" class="card-img-top mx-2 my-2 p-2" alt="Foto Croissant">
         <div class="card-body">
@@ -232,14 +230,14 @@
       <img src="./Fotos/scon2.jpeg" class="card-img-top mx-2 my-2 p-2" alt="Foto Scon">
         <div class="card-body">
         <h5 class="card-title">Scon</h5>
-        <p class="card-text">Imperdibles para el team salado. Tenemos los mejores scones de queso y cebolla.<p>
+        <p class="card-text">Imperdibles para el team salado. Son los mejores scones de queso y cebolla que vas a probar.<p>
         </div>
       </div>
     <div class="card col-3 border-white">
       <img src="./Fotos/torta2.jpg" class="card-img-top mx-2 my-2 p-2" alt="Foto torta">
         <div class="card-body">
         <h5 class="card-title">Torta tripe choco</h5>
-        <p class="card-text">El bizcocho es de chocolate semiamargo, está rellena de mousse de chocolate y cubierta con gananche de chocolate con leche.<p>
+        <p class="card-text">El bizcocho es de chocolate semiamargo, está relleno de mousse de chocolate y cubierta con ganache de chocolate con leche.<p>
         </div>
       </div>
     <div class="card col-3 border-white">
@@ -253,7 +251,7 @@
 
   <h2 id="seccionContacto" class="card-title fs-2 d-flex justify-content-center my-5 p-4">CONTACTANOS</h2>
   
-  <div class="container my-5 p-3">
+  <div class="container-fluid my-5 p-3">
     <div class="card border-white mb-12" style="max-width: 100%;">
     <div class="row g-0 d-flex justify-content-around">
       
@@ -296,13 +294,11 @@
           </div>
         </div>
       </div>
-
     </div>
-    </div>
+  </div>
   
-
-<footer class="d-flex justify-content-center align-items-end my-5 p-4">
-  <p class="fs-6">COFFEE STORAGE S.A - Av. Los Cafeteros 1552, Ciudad Autónoma de Buenos Aires. Argentina. <img src="./Fotos/marcar.png" style="max-width: 20px;" alt="Ícono marca registrada">. Todos los derechos reservados.</p>
+<footer class="d-flex justify-content-center my-5 p-4">
+  <p class="fs-6 text-black-50">COFFEE STORAGE S.A - Av. Los Cafeteros 1552, Ciudad Autónoma de Buenos Aires. Argentina. <img src="./Fotos/marcar.png" style="max-width: 20px;" alt="Ícono marca registrada">. Todos los derechos reservados.</p>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
